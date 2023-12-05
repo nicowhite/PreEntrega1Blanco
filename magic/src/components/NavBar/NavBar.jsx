@@ -4,7 +4,10 @@ import "./NavBar.css"
 
 const navbar = () => {
   return (
-    <div>
+    <div className="container-navbar">
+        <div>
+        <img src="./public/logo.png" alt="" />
+        </div>
         <ul className="navbar">
             <li><a href="">Magic</a></li>
             <li><a href="">Pokemon</a></li>

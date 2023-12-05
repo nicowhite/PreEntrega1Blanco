@@ -1,5 +1,15 @@
+#cartwidget {
+  display: flex;
+}
+
 #cartwidget img {
   height: 20px;
+}
+
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
 }
 
 .navbar {
@@ -15,4 +25,10 @@
 .navbar li a {
   text-decoration: none;
   color: #fff;
+}
+
+div img {
+  height: 5rem;
+  align-self: flex-start;
+  margin-left: 1rem;
 }
