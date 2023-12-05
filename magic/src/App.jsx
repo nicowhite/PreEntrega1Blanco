@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <h1>Testing React</h1>
+      <h1 className="main-title">Cartas</h1>
     </div>
   );
 }

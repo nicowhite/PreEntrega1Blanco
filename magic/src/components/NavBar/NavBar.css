@@ -1,6 +1,18 @@
+#cartwidget img {
+  height: 20px;
+}
 
+.navbar {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-end;
+}
 
-#cartwidget img{
-    height: 20px;
+.navbar li {
+  padding: 1rem;
+}
 
+.navbar li a {
+  text-decoration: none;
+  color: #fff;
 }
